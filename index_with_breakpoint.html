@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/vievoai.css" rel="stylesheet">
-<link href="css/index.css" rel="stylesheet">
+<link href="css/index_with_breakpoint.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="jquery-ui.min.js"></script>
+<script src="wb.panel.min.js"></script>
 <script src="wwb15.min.js"></script>
 <script>
 $(document).ready(function()
@@ -46,6 +47,11 @@ $(document).ready(function()
    {
       onScrollcontact();
    });
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'top', toggle: true});
+   $("#PanelMenu1_markup ul li a").click(function(event)
+   {
+       $.panel.hide($("#PanelMenu1_panel"));
+   });
 });
 </script>
 </head>
@@ -54,12 +60,12 @@ $(document).ready(function()
 <div id="header">
 <div class="row">
 <div class="col-1">
-<div id="wb_Image1" style="display:inline-block;width:75px;height:75px;z-index:0;">
+<div id="wb_Image1">
 <img src="images/logo n tt.png" id="Image1" alt="">
 </div>
 </div>
 <div class="col-2">
-<div id="wb_headerMenu" style="display:inline-block;width:100%;z-index:1;">
+<div id="wb_headerMenu">
 <ul role="menubar">
 <li class="firstmain"><a role="menuitem" class="headerMenu-effect" href="./index.html#home" target="_self">Inicio</a>
 </li>
@@ -70,6 +76,22 @@ $(document).ready(function()
 <li><a role="menuitem" class="headerMenu-effect" href="#footer" target="_self">Sobre</a>
 </li>
 </ul>
+
+</div>
+<div id="wb_PanelMenu1">
+<a href="#PanelMenu1_markup" id="PanelMenu1">
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+</a>
+<div id="PanelMenu1_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="./index.html#home">Inicio</a></li>
+   <li role="menuitem"><a href="#CardContainer1">Servicios</a></li>
+   <li role="menuitem"><a href="#contact">Contacto</a></li>
+   <li role="menuitem"><a href="#footer">Sobre</a></li>
+</ul>
+</div>
 
 </div>
 </div>
@@ -84,7 +106,7 @@ $(document).ready(function()
 </div>
 <div id="wb_CardContainer1">
 <div id="CardContainer1">
-<div id="wb_Card1" style="display:flex;text-align:center;z-index:2;">
+<div id="wb_Card1">
    <div id="Card1-card-body">
       <div id="Card1-card-item0"><svg class="svg-icon" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <g transform="scale(1)">
@@ -98,7 +120,7 @@ $(document).ready(function()
    </div>
 
 </div>
-<div id="wb_Card2" style="display:flex;text-align:center;z-index:3;">
+<div id="wb_Card2">
    <div id="Card2-card-body">
       <div id="Card2-card-item0"><svg class="svg-icon" viewBox="0 0 300 193" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <g transform="scale(1)">
@@ -112,7 +134,7 @@ $(document).ready(function()
    </div>
 
 </div>
-<div id="wb_Card3" style="display:flex;text-align:center;z-index:4;">
+<div id="wb_Card3">
    <div id="Card3-card-body">
       <div id="Card3-card-item0"><svg class="svg-icon" viewBox="0 0 300 258" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <g transform="scale(1)">
@@ -120,7 +142,7 @@ $(document).ready(function()
    </g>
 </svg>
 </div>
-      <div id="Card3-card-item1">Marketing Digital</div>
+      <div id="Card3-card-item1">Marketing digital</div>
       <hr id="Card3-card-item2">
       <div id="Card3-card-item3">Aumenta el número de clientes de tu empresa.<br><br><br>Aumenta tus ventas.<br><br><br>Incrementa tu exposición y posición en los motores de búsqueda como Google y en redes sociales.</div>
    </div>
@@ -150,8 +172,8 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:13;">
-<div id="wb_upIcon" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:7;">
+<div id="upStickyLayer">
+<div id="wb_upIcon">
 <a href="./index.html#home"><div id="upIcon"><i class="fa fa-angle-up"></i></div></a></div>
 </div>
 <div class="typeform-widget" data-url="https://vievoai.typeform.com/to/Y1PHvH" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Y1PHvH&utm_source=typeform.com-13211773-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div></body>
