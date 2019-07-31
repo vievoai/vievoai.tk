@@ -162,7 +162,7 @@ body
    max-width: 100% !important;
 }
 }
-#wb_CardContainer1
+#wb_servicios
 {
    background-color: #000000;
    background-image: none;
@@ -170,7 +170,7 @@ body
    box-sizing: border-box;
    position: relative;
 }
-#CardContainer1
+#servicios
 {
    display: -webkit-flex;
    display: flex;
@@ -196,7 +196,7 @@ body
 }
 @media all and (max-width:480px) 
 {
-#CardContainer1
+#servicios
 {
    -webkit-flex-direction: column;
    flex-direction: column;
@@ -204,7 +204,7 @@ body
    flex-wrap: nowrap;
 }
 }
-#wb_contact
+#wb_contacto
 {
    clear: both;
    position: relative;
@@ -218,7 +218,7 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#contact
+#contacto
 {
    box-sizing: border-box;
    padding: 20px 15px 20px 15px;
@@ -226,12 +226,12 @@ body
    margin-left: auto;
    max-width: 1140px;
 }
-#contact > .row
+#contacto > .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -240,11 +240,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    float: left;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -252,32 +252,32 @@ body
    width: 100%;
    text-align: center;
 }
-#contact > .row > .col-1 > .col-1-padding
+#contacto > .row > .col-1 > .col-1-padding
 {
    padding: 10px 0px 10px 0px;
 }
-#contact:before,
-#contact:after,
-#contact .row:before,
-#contact .row:after
+#contacto:before,
+#contacto:after,
+#contacto .row:before,
+#contacto .row:after
 {
    display: table;
    content: " ";
 }
-#contact:after,
-#contact .row:after
+#contacto:after,
+#contacto .row:after
 {
    clear: both;
 }
 @media (max-width: 480px)
 {
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    float: none;
    width: 100% !important;
 }
 }
-#wb_footer
+#wb_pie_de_pagina
 {
    clear: both;
    position: relative;
@@ -291,19 +291,19 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#footer
+#pie_de_pagina
 {
    box-sizing: border-box;
    padding: 25px 15px 25px 15px;
    margin-right: auto;
    margin-left: auto;
 }
-#footer > .row
+#pie_de_pagina > .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#footer > .row > .col-1
+#pie_de_pagina > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -312,11 +312,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#footer > .row > .col-1
+#pie_de_pagina > .row > .col-1
 {
    float: left;
 }
-#footer > .row > .col-1
+#pie_de_pagina > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -324,28 +324,28 @@ body
    width: 100%;
    text-align: left;
 }
-#footer:before,
-#footer:after,
-#footer .row:before,
-#footer .row:after
+#pie_de_pagina:before,
+#pie_de_pagina:after,
+#pie_de_pagina .row:before,
+#pie_de_pagina .row:after
 {
    display: table;
    content: " ";
 }
-#footer:after,
-#footer .row:after
+#pie_de_pagina:after,
+#pie_de_pagina .row:after
 {
    clear: both;
 }
 @media (max-width: 480px)
 {
-#footer > .row > .col-1
+#pie_de_pagina > .row > .col-1
 {
    float: none;
    width: 100%;
 }
 }
-#wb_footerText 
+#wb_texto_pie_de_pagina 
 {
    background-color: transparent;
    background-image: none;
@@ -354,7 +354,7 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_footerText
+#wb_texto_pie_de_pagina
 {
    color: #32CD32;
    font-family: Arial;
@@ -362,7 +362,7 @@ body
    font-size: 15px;
    line-height: 17px;
 }
-#wb_footerText p, #wb_footerText ul
+#wb_texto_pie_de_pagina p, #wb_texto_pie_de_pagina ul
 {
    margin: 0;
    padding: 0;
@@ -505,7 +505,7 @@ body
    transform: scaleX(1);
    opacity: 1;
 }
-#wb_Card1
+#wb_soporte
 {
    position: relative;
    display: -webkit-flex;
@@ -528,13 +528,13 @@ body
    text-align: center;
    box-shadow: 0px 0px 20px rgba(0,0,0,0.28);
 }
-#Card1-card-body
+#soporte-card-body
 {
    -webkit-flex: 1 1 auto;
    flex: 1 1 auto;
    font-size: 0px;
 }
-#Card1-card-item0
+#soporte-card-item0
 {
    display: inline-block;
    height: 53px;
@@ -550,7 +550,7 @@ body
    font-weight: normal;
    font-size: 53px;
 }
-#wb_Card1:hover #Card1-card-item0
+#wb_soporte:hover #soporte-card-item0
 {
    -webkit-transform: rotate(0deg) scale(0.8,0.8) ;
    -moz-transform: rotate(0deg) scale(0.8,0.8) ;
@@ -559,7 +559,7 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card1-card-item0
+#soporte-card-item0
 {
    -webkit-transform: rotate(0deg) ;
    -moz-transform: rotate(0deg) ;
@@ -568,18 +568,18 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card1-card-item0 a
+#soporte-card-item0 a
 {
    color: #32CD32;
    text-decoration: none;
 }
-#Card1-card-item0 .svg-icon
+#soporte-card-item0 .svg-icon
 {
    fill: #32CD32;
    width: 53px;
    height: 53px;
 }
-#Card1-card-item1
+#soporte-card-item1
 {
    box-sizing: border-box;
    margin: 0;
@@ -589,7 +589,7 @@ body
    font-weight: bold;
    font-size: 21px;
 }
-#Card1-card-item2
+#soporte-card-item2
 {
    box-sizing: border-box;
    margin: 20px 100px 20px 100px;
@@ -598,7 +598,7 @@ body
    height: 0;
    line-height: 0;
 }
-#Card1-card-item3
+#soporte-card-item3
 {
    box-sizing: border-box;
    margin: 0px 0px 30px 0px;
@@ -608,7 +608,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-#wb_Card2
+#wb_pagina_web
 {
    position: relative;
    display: -webkit-flex;
@@ -631,13 +631,13 @@ body
    text-align: center;
    box-shadow: 0px 0px 20px rgba(0,0,0,0.28);
 }
-#Card2-card-body
+#pagina_web-card-body
 {
    -webkit-flex: 1 1 auto;
    flex: 1 1 auto;
    font-size: 0px;
 }
-#Card2-card-item0
+#pagina_web-card-item0
 {
    display: inline-block;
    height: 53px;
@@ -653,7 +653,7 @@ body
    font-weight: normal;
    font-size: 53px;
 }
-#Card2-card-item0:hover
+#pagina_web-card-item0:hover
 {
    -webkit-transform: rotate(0deg) scale(0.8,0.8) ;
    -moz-transform: rotate(0deg) scale(0.8,0.8) ;
@@ -662,7 +662,7 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card2-card-item0
+#pagina_web-card-item0
 {
    -webkit-transform: rotate(0deg) ;
    -moz-transform: rotate(0deg) ;
@@ -671,18 +671,18 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card2-card-item0 a
+#pagina_web-card-item0 a
 {
    color: #32CD32;
    text-decoration: none;
 }
-#Card2-card-item0 .svg-icon
+#pagina_web-card-item0 .svg-icon
 {
    fill: #32CD32;
    width: 53px;
    height: 53px;
 }
-#Card2-card-item1
+#pagina_web-card-item1
 {
    box-sizing: border-box;
    margin: 0;
@@ -692,7 +692,7 @@ body
    font-weight: bold;
    font-size: 21px;
 }
-#Card2-card-item2
+#pagina_web-card-item2
 {
    box-sizing: border-box;
    margin: 20px 100px 20px 100px;
@@ -701,7 +701,7 @@ body
    height: 0;
    line-height: 0;
 }
-#Card2-card-item3
+#pagina_web-card-item3
 {
    box-sizing: border-box;
    margin: 0px 0px 30px 0px;
@@ -711,7 +711,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-#wb_Card3
+#wb_marketing_digital
 {
    position: relative;
    display: -webkit-flex;
@@ -734,13 +734,13 @@ body
    text-align: center;
    box-shadow: 0px 0px 20px rgba(0,0,0,0.28);
 }
-#Card3-card-body
+#marketing_digital-card-body
 {
    -webkit-flex: 1 1 auto;
    flex: 1 1 auto;
    font-size: 0px;
 }
-#Card3-card-item0
+#marketing_digital-card-item0
 {
    display: inline-block;
    height: 53px;
@@ -756,7 +756,7 @@ body
    font-weight: normal;
    font-size: 53px;
 }
-#wb_Card3:hover #Card3-card-item0
+#wb_marketing_digital:hover #marketing_digital-card-item0
 {
    -webkit-transform: rotate(0deg) scale(0.8,0.8) ;
    -moz-transform: rotate(0deg) scale(0.8,0.8) ;
@@ -765,7 +765,7 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card3-card-item0
+#marketing_digital-card-item0
 {
    -webkit-transform: rotate(0deg) ;
    -moz-transform: rotate(0deg) ;
@@ -774,18 +774,18 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card3-card-item0 a
+#marketing_digital-card-item0 a
 {
    color: #32CD32;
    text-decoration: none;
 }
-#Card3-card-item0 .svg-icon
+#marketing_digital-card-item0 .svg-icon
 {
    fill: #32CD32;
    width: 53px;
    height: 53px;
 }
-#Card3-card-item1
+#marketing_digital-card-item1
 {
    box-sizing: border-box;
    margin: 0;
@@ -795,7 +795,7 @@ body
    font-weight: bold;
    font-size: 21px;
 }
-#Card3-card-item2
+#marketing_digital-card-item2
 {
    box-sizing: border-box;
    margin: 20px 100px 20px 100px;
@@ -804,7 +804,7 @@ body
    height: 0;
    line-height: 0;
 }
-#Card3-card-item3
+#marketing_digital-card-item3
 {
    box-sizing: border-box;
    margin: 0px 0px 30px 0px;
@@ -950,12 +950,12 @@ body
    position: absolute;
    z-index: 999;
 }
-#wb_Image1
+#wb_vievoai_logo
 {
    margin: 0;
    vertical-align: top;
 }
-#Image1
+#vievoai_logo
 {
    border: 0px solid #000000;
    box-sizing: border-box;
@@ -976,18 +976,17 @@ body
    text-align: center;
    z-index: 2;
 }
-#wb_Card1
+#wb_marketing_digital
 {
    display: flex;
    text-align: center;
-   z-index: 3;
+   z-index: 5;
 }
-#wb_Image1
+#wb_pagina_web
 {
-   display: inline-block;
-   width: 75px;
-   height: 75px;
-   z-index: 0;
+   display: flex;
+   text-align: center;
+   z-index: 4;
 }
 #wb_upIcon
 {
@@ -999,17 +998,18 @@ body
    text-align: center;
    z-index: 8;
 }
-#wb_Card3
+#wb_soporte
 {
    display: flex;
    text-align: center;
-   z-index: 5;
+   z-index: 3;
 }
-#wb_Card2
+#wb_vievoai_logo
 {
-   display: flex;
-   text-align: center;
-   z-index: 4;
+   display: inline-block;
+   width: 75px;
+   height: 75px;
+   z-index: 0;
 }
 #wb_headerMenu
 {
@@ -1127,7 +1127,7 @@ body
    justify-content: center;
    text-align: center;
 }
-#wb_CardContainer1
+#wb_servicios
 {
    visibility: visible;
    display: flex;
@@ -1139,7 +1139,7 @@ body
    background-color: #000000;
    background-image: none;
 }
-#wb_contact
+#wb_contacto
 {
    visibility: visible;
    display: table;
@@ -1151,26 +1151,26 @@ body
    background-color: #000000;
    background-image: none;
 }
-#wb_contact
+#wb_contacto
 {
    margin-top: 0px;
    margin-bottom: 0px;
 }
-#contact
+#contacto
 {
    padding: 20px 15px 20px 15px;
 }
-#contact .row
+#contacto .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    padding-right: 15px;
    padding-left: 15px;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    display: block;
    width: 100%;
@@ -1178,11 +1178,11 @@ body
    border-radius: 0px;
    text-align: center;
 }
-#contact > .row > .col-1 > .col-1-padding
+#contacto > .row > .col-1 > .col-1-padding
 {
    padding: 10px 0px 10px 0px;
 }
-#wb_footer
+#wb_pie_de_pagina
 {
    visibility: visible;
    display: table;
@@ -1194,26 +1194,26 @@ body
    background-color: #000000;
    background-image: none;
 }
-#wb_footer
+#wb_pie_de_pagina
 {
    margin-top: 0px;
    margin-bottom: 0px;
 }
-#footer
+#pie_de_pagina
 {
    padding: 25px 15px 25px 15px;
 }
-#footer .row
+#pie_de_pagina .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#footer > .row > .col-1
+#pie_de_pagina > .row > .col-1
 {
    padding-right: 15px;
    padding-left: 15px;
 }
-#footer > .row > .col-1
+#pie_de_pagina > .row > .col-1
 {
    display: block;
    width: 100%;
@@ -1221,14 +1221,14 @@ body
    border-radius: 0px;
    text-align: left;
 }
-#wb_footerText
+#wb_texto_pie_de_pagina
 {
    visibility: visible;
    display: block;
    background-color: transparent;
    background-image: none;
 }
-#wb_footerText
+#wb_texto_pie_de_pagina
 {
    font-family: Arial;
    font-weight: normal;
@@ -1323,7 +1323,7 @@ body
    background-image: none;
    border: 1px solid #00FF00;
 }
-#wb_Card1
+#wb_soporte
 {
    width: auto;
    height: auto;
@@ -1347,7 +1347,7 @@ body
    -webkit-align-self: auto;
    align-self: auto;
 }
-#Card1-card-item0
+#soporte-card-item0
 {
    display: inline-block;
    height: 53px;
@@ -1363,7 +1363,7 @@ body
    font-weight: normal;
    font-size: 53px;
 }
-#wb_Card1:hover #Card1-card-item0
+#wb_soporte:hover #soporte-card-item0
 {
    -webkit-transform: rotate(0deg) scale(0.8,0.8) ;
    -moz-transform: rotate(0deg) scale(0.8,0.8) ;
@@ -1372,7 +1372,7 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card1-card-item0
+#soporte-card-item0
 {
    -webkit-transform: rotate(0deg) ;
    -moz-transform: rotate(0deg) ;
@@ -1381,18 +1381,18 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card1-card-item0 a
+#soporte-card-item0 a
 {
    color: #32CD32;
    text-decoration: none;
 }
-#Card1-card-item0 .svg-icon
+#soporte-card-item0 .svg-icon
 {
    fill: #32CD32;
    width: 53px;
    height: 53px;
 }
-#Card1-card-item1
+#soporte-card-item1
 {
    box-sizing: border-box;
    margin: 0;
@@ -1402,7 +1402,7 @@ body
    font-weight: bold;
    font-size: 21px;
 }
-#Card1-card-item2
+#soporte-card-item2
 {
    box-sizing: border-box;
    margin: 20px 100px 20px 100px;
@@ -1411,7 +1411,7 @@ body
    height: 0;
    line-height: 0;
 }
-#Card1-card-item3
+#soporte-card-item3
 {
    box-sizing: border-box;
    margin: 0px 0px 30px 0px;
@@ -1421,7 +1421,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-#wb_Card2
+#wb_pagina_web
 {
    width: auto;
    height: auto;
@@ -1445,7 +1445,7 @@ body
    -webkit-align-self: auto;
    align-self: auto;
 }
-#Card2-card-item0
+#pagina_web-card-item0
 {
    display: inline-block;
    height: 53px;
@@ -1461,7 +1461,7 @@ body
    font-weight: normal;
    font-size: 53px;
 }
-#Card2-card-item0:hover
+#pagina_web-card-item0:hover
 {
    -webkit-transform: rotate(0deg) scale(0.8,0.8) ;
    -moz-transform: rotate(0deg) scale(0.8,0.8) ;
@@ -1470,7 +1470,7 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card2-card-item0
+#pagina_web-card-item0
 {
    -webkit-transform: rotate(0deg) ;
    -moz-transform: rotate(0deg) ;
@@ -1479,18 +1479,18 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card2-card-item0 a
+#pagina_web-card-item0 a
 {
    color: #32CD32;
    text-decoration: none;
 }
-#Card2-card-item0 .svg-icon
+#pagina_web-card-item0 .svg-icon
 {
    fill: #32CD32;
    width: 53px;
    height: 53px;
 }
-#Card2-card-item1
+#pagina_web-card-item1
 {
    box-sizing: border-box;
    margin: 0;
@@ -1500,7 +1500,7 @@ body
    font-weight: bold;
    font-size: 21px;
 }
-#Card2-card-item2
+#pagina_web-card-item2
 {
    box-sizing: border-box;
    margin: 20px 100px 20px 100px;
@@ -1509,7 +1509,7 @@ body
    height: 0;
    line-height: 0;
 }
-#Card2-card-item3
+#pagina_web-card-item3
 {
    box-sizing: border-box;
    margin: 0px 0px 30px 0px;
@@ -1519,7 +1519,7 @@ body
    font-weight: normal;
    font-size: 13px;
 }
-#wb_Card3
+#wb_marketing_digital
 {
    width: auto;
    height: auto;
@@ -1543,7 +1543,7 @@ body
    -webkit-align-self: auto;
    align-self: auto;
 }
-#Card3-card-item0
+#marketing_digital-card-item0
 {
    display: inline-block;
    height: 53px;
@@ -1559,7 +1559,7 @@ body
    font-weight: normal;
    font-size: 53px;
 }
-#wb_Card3:hover #Card3-card-item0
+#wb_marketing_digital:hover #marketing_digital-card-item0
 {
    -webkit-transform: rotate(0deg) scale(0.8,0.8) ;
    -moz-transform: rotate(0deg) scale(0.8,0.8) ;
@@ -1568,7 +1568,7 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card3-card-item0
+#marketing_digital-card-item0
 {
    -webkit-transform: rotate(0deg) ;
    -moz-transform: rotate(0deg) ;
@@ -1577,18 +1577,18 @@ body
    -moz-transition: transform 300ms linear 0ms;
    transition: transform 300ms linear 0ms;
 }
-#Card3-card-item0 a
+#marketing_digital-card-item0 a
 {
    color: #32CD32;
    text-decoration: none;
 }
-#Card3-card-item0 .svg-icon
+#marketing_digital-card-item0 .svg-icon
 {
    fill: #32CD32;
    width: 53px;
    height: 53px;
 }
-#Card3-card-item1
+#marketing_digital-card-item1
 {
    box-sizing: border-box;
    margin: 0;
@@ -1598,7 +1598,7 @@ body
    font-weight: bold;
    font-size: 21px;
 }
-#Card3-card-item2
+#marketing_digital-card-item2
 {
    box-sizing: border-box;
    margin: 20px 100px 20px 100px;
@@ -1607,7 +1607,7 @@ body
    height: 0;
    line-height: 0;
 }
-#Card3-card-item3
+#marketing_digital-card-item3
 {
    box-sizing: border-box;
    margin: 0px 0px 30px 0px;
