@@ -17,15 +17,15 @@ $(document).ready(function()
 {
    $('#reviewsImage1').addClass('visibility-hidden');
    $('#portfolio-image2').addClass('visibility-hidden');
-   $("a[href*='#header']").click(function(event)
+   $("a[href*='#encabezado']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+      $('html, body').stop().animate({ scrollTop: $('#wb_encabezado').offset().top }, 600, 'easeOutCirc');
    });
-   $("a[href*='#home']").click(function(event)
+   $("a[href*='#portada']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_home').offset().top-88 }, 600, 'easeOutCirc');
+      $('html, body').stop().animate({ scrollTop: $('#wb_portada').offset().top-88 }, 600, 'easeOutCirc');
    });
    $("a[href*='#contacto']").click(function(event)
    {
@@ -56,8 +56,8 @@ $(document).ready(function()
 </script>
 </head>
 <body>
-<div id="wb_header">
-<div id="header">
+<div id="wb_encabezado">
+<div id="encabezado">
 <div class="row">
 <div class="col-1">
 <div id="wb_vievoai_logo">
@@ -65,13 +65,13 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-2">
-<div id="wb_headerMenu">
+<div id="wb_encabezadomenu">
 <ul role="menubar">
-<li class="firstmain"><a role="menuitem" class="headerMenu-effect" href="./index_with_breakpoint.html#header" target="_self">Inicio</a>
+<li class="firstmain"><a role="menuitem" class="encabezadomenu-effect" href="./index_with_breakpoint.html#portada" target="_self">Inicio</a>
 </li>
-<li><a role="menuitem" class="headerMenu-effect" href="./index_with_breakpoint.html#servicios" target="_self">Servicios</a>
+<li><a role="menuitem" class="encabezadomenu-effect" href="./index_with_breakpoint.html#servicios" target="_self">Servicios</a>
 </li>
-<li><a role="menuitem" class="headerMenu-effect" href="./index_with_breakpoint.html#contacto" target="_self">Contacto</a>
+<li><a role="menuitem" class="encabezadomenu-effect" href="./index_with_breakpoint.html#contacto" target="_self">Contacto</a>
 </li>
 </ul>
 
@@ -84,7 +84,7 @@ $(document).ready(function()
 </a>
 <div id="PanelMenu1_markup">
 <ul role="menu">
-   <li role="menuitem"><a href="./index_with_breakpoint.html#header">Inicio</a></li>
+   <li role="menuitem"><a href="./index_with_breakpoint.html#portada">Inicio</a></li>
    <li role="menuitem"><a href="./index_with_breakpoint.html#servicios">Servicios</a></li>
    <li role="menuitem"><a href="./index_with_breakpoint.html#contacto">Contacto</a></li>
 </ul>
@@ -95,8 +95,8 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_home">
-<div id="home">
+<div id="wb_portada">
+<div id="portada">
 <div class="col-1">
 </div>
 </div>
@@ -162,14 +162,14 @@ $(document).ready(function()
 <div id="pie">
 <div class="row">
 <div class="col-1">
-<div id="wb_texto_pie_de_pagina">
+<div id="wb_pietexto">
 <p style="font-weight:bold;color:#32CD32;"><span style="color:#32CD32;">Vievo AI 2019</span></p>
 </div>
-<div id="wb_FontAwesomeIcon1">
-<a href="https://www.instagram.com/vievo_ai/"><div id="FontAwesomeIcon1"><i class="fa fa-instagram"></i></div></a>
+<div id="wb_instagram">
+<a href="https://www.instagram.com/vievo_ai/"><div id="instagram"><i class="fa fa-instagram"></i></div></a>
 </div>
-<div id="wb_FontAwesomeIcon2">
-<a href="https://www.facebook.com/vievoai"><div id="FontAwesomeIcon2"><i class="fa fa-facebook"></i></div></a>
+<div id="wb_facebook">
+<a href="https://www.facebook.com/vievoai"><div id="facebook"><i class="fa fa-facebook"></i></div></a>
 </div>
 </div>
 </div>
