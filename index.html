@@ -34,14 +34,14 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_home').offset().top-88 }, 600, 'easeOutCirc');
    });
-   $("a[href*='#contact']").click(function(event)
+   $("a[href*='#contacto']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top-88 }, 600, 'easeOutCirc');
+      $('html, body').stop().animate({ scrollTop: $('#wb_contacto').offset().top-88 }, 600, 'easeOutCirc');
    });
-   function onScrollcontact()
+   function onScrollcontacto()
    {
-      var $obj = $("#wb_contact");
+      var $obj = $("#wb_contacto");
       if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
       {
          $obj.addClass("in-viewport");
@@ -49,10 +49,10 @@ $(document).ready(function()
          AnimateCss('portfolio-image2', 'animate-fade-in-up', 500, 1000);
       }
    }
-   onScrollcontact();
+   onScrollcontacto();
    $(window).scroll(function(event)
    {
-      onScrollcontact();
+      onScrollcontacto();
    });
 });
 </script>
@@ -69,13 +69,11 @@ $(document).ready(function()
 <div class="col-2">
 <div id="wb_headerMenu" style="display:inline-block;width:100%;z-index:1;">
 <ul role="menubar">
-<li class="firstmain"><a role="menuitem" class="headerMenu-effect" href="./index.html#home" target="_self">Inicio</a>
+<li class="firstmain"><a role="menuitem" class="headerMenu-effect" href="./index.html#header" target="_self">Inicio</a>
 </li>
-<li><a role="menuitem" class="headerMenu-effect" href="#CardContainer1" target="_self">Servicios</a>
+<li><a role="menuitem" class="headerMenu-effect" href="./index.html#servicios" target="_self">Servicios</a>
 </li>
-<li><a role="menuitem" class="headerMenu-effect" href="#contact" target="_self">Contacto</a>
-</li>
-<li><a role="menuitem" class="headerMenu-effect" href="#footer" target="_self">Sobre</a>
+<li><a role="menuitem" class="headerMenu-effect" href="./index.html#contacto" target="_self">Contacto</a>
 </li>
 </ul>
 
@@ -90,8 +88,8 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_CardContainer1">
-<div id="CardContainer1">
+<div id="wb_servicios">
+<div id="servicios">
 <div id="wb_Card1" style="display:flex;text-align:center;z-index:2;">
    <div id="Card1-card-body">
       <div id="Card1-card-item0"><svg class="svg-icon" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -136,8 +134,8 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_contact">
-<div id="contact">
+<div id="wb_contacto">
+<div id="contacto">
 <div class="row">
 <div class="col-1">
 <div class="col-1-padding">
@@ -147,19 +145,25 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_footer">
-<div id="footer">
+<div id="wb_pie">
+<div id="pie">
 <div class="row">
 <div class="col-1">
-<div id="wb_footerText">
+<div id="wb_pietexto">
 <p style="font-weight:bold;color:#32CD32;"><span style="color:#32CD32;">Vievo AI 2019</span></p>
 </div>
+<div id="wb_instagram" style="display:inline-block;width:31px;height:31px;text-align:center;z-index:7;">
+<a href="https://www.instagram.com/vievo_ai/"><div id="instagram"><i class="fa fa-instagram"></i></div></a>
+</div>
+<div id="wb_facebook" style="display:inline-block;width:31px;height:31px;text-align:center;z-index:8;">
+<a href="https://www.facebook.com/vievoai"><div id="facebook"><i class="fa fa-facebook"></i></div></a>
 </div>
 </div>
 </div>
 </div>
-<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:13;">
-<div id="wb_upIcon" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:7;">
+</div>
+<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:15;">
+<div id="wb_upIcon" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:9;">
 <a href="./index.html#home"><div id="upIcon"><i class="fa fa-angle-up"></i></div></a></div>
 </div>
 </body>

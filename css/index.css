@@ -106,6 +106,9 @@ body
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
+   -webkit-animation: puff-in 1000ms linear 0ms 1 normal both;
+   -moz-animation: puff-in 1000ms linear 0ms 1 normal both;
+   animation: puff-in 1000ms linear 0ms 1 normal both;
 }
 #home
 {
@@ -158,7 +161,7 @@ body
    max-width: 100% !important;
 }
 }
-#wb_CardContainer1
+#wb_servicios
 {
    background-color: #000000;
    background-image: none;
@@ -166,7 +169,7 @@ body
    box-sizing: border-box;
    position: relative;
 }
-#CardContainer1
+#servicios
 {
    display: -webkit-flex;
    display: flex;
@@ -192,7 +195,7 @@ body
 }
 @media all and (max-width:480px) 
 {
-#CardContainer1
+#servicios
 {
    -webkit-flex-direction: column;
    flex-direction: column;
@@ -200,7 +203,7 @@ body
    flex-wrap: nowrap;
 }
 }
-#wb_contact
+#wb_contacto
 {
    clear: both;
    position: relative;
@@ -214,7 +217,7 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#contact
+#contacto
 {
    box-sizing: border-box;
    padding: 20px 15px 20px 15px;
@@ -222,12 +225,12 @@ body
    margin-left: auto;
    max-width: 1140px;
 }
-#contact > .row
+#contacto > .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -236,11 +239,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    float: left;
 }
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -248,32 +251,32 @@ body
    width: 100%;
    text-align: center;
 }
-#contact > .row > .col-1 > .col-1-padding
+#contacto > .row > .col-1 > .col-1-padding
 {
    padding: 10px 0px 10px 0px;
 }
-#contact:before,
-#contact:after,
-#contact .row:before,
-#contact .row:after
+#contacto:before,
+#contacto:after,
+#contacto .row:before,
+#contacto .row:after
 {
    display: table;
    content: " ";
 }
-#contact:after,
-#contact .row:after
+#contacto:after,
+#contacto .row:after
 {
    clear: both;
 }
 @media (max-width: 480px)
 {
-#contact > .row > .col-1
+#contacto > .row > .col-1
 {
    float: none;
    width: 100% !important;
 }
 }
-#wb_footer
+#wb_pie
 {
    clear: both;
    position: relative;
@@ -287,19 +290,19 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#footer
+#pie
 {
    box-sizing: border-box;
    padding: 25px 15px 25px 15px;
    margin-right: auto;
    margin-left: auto;
 }
-#footer > .row
+#pie > .row
 {
    margin-right: -15px;
    margin-left: -15px;
 }
-#footer > .row > .col-1
+#pie > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -308,11 +311,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#footer > .row > .col-1
+#pie > .row > .col-1
 {
    float: left;
 }
-#footer > .row > .col-1
+#pie > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -320,28 +323,28 @@ body
    width: 100%;
    text-align: left;
 }
-#footer:before,
-#footer:after,
-#footer .row:before,
-#footer .row:after
+#pie:before,
+#pie:after,
+#pie .row:before,
+#pie .row:after
 {
    display: table;
    content: " ";
 }
-#footer:after,
-#footer .row:after
+#pie:after,
+#pie .row:after
 {
    clear: both;
 }
 @media (max-width: 480px)
 {
-#footer > .row > .col-1
+#pie > .row > .col-1
 {
    float: none;
    width: 100%;
 }
 }
-#wb_footerText 
+#wb_pietexto 
 {
    background-color: transparent;
    background-image: none;
@@ -350,15 +353,15 @@ body
    margin: 0;
    text-align: center;
 }
-#wb_footerText
+#wb_pietexto
 {
    color: #32CD32;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: normal;
    font-size: 15px;
-   line-height: 16.5px;
+   line-height: 17.5px;
 }
-#wb_footerText p, #wb_footerText ul
+#wb_pietexto p, #wb_pietexto ul
 {
    margin: 0;
    padding: 0;
@@ -421,23 +424,24 @@ body
    float: left;
    margin: 0;
    padding: 8px 0px 8px 0px;
-   width: 25%;
+   width: 33.33%;
 }
 #wb_headerMenu a
 {
    display: block;
    float: left;
    color: #32CD32;
-   border: 1px solid rgba(255,255,255,0.00);
-   background-color: #FFFFFF;
-   background-color: rgba(255,255,255,0.00);
+   border: 1px solid rgba(0,0,0,0.00);
+   border-radius: 21px;
+   background-color: #000000;
+   background-color: rgba(0,0,0,0.00);
    background-image: none;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: bold;
    font-size: 15px;
    font-style: normal;
    text-decoration: none;
-   width: 84.73%;
+   width: 88.61%;
    height: 26px;
    padding: 0px 10px 0px 10px;
    vertical-align: middle;
@@ -446,11 +450,8 @@ body
 }
 #wb_headerMenu li:hover a, #wb_headerMenu a:hover
 {
-   color: #00FF00;
-}
-.headerMenu-effect:before
-{
-   background-color: #087EEA;
+   color: #000000;
+   background-color: #32CD32;
    background-image: none;
    border: 1px solid #00FF00;
 }
@@ -471,35 +472,8 @@ body
 }
 .headerMenu-effect
 {
-   display: inline-block;
-   -webkit-transform: perspective(0px) translateX(0);
-   transform: perspective(0px) translateX(0);
-   position: relative;
-   -webkit-transition: color 200ms linear;
-   transition: color 200ms linear;
-}
-.headerMenu-effect:before
-{
-   content: "";
-   position: absolute;
-   height: 1px;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: -1;
-   opacity: 0;
-   -webkit-transform: scaleX(0);
-   transform: scaleX(0);
-   -webkit-transform-origin: 50%;
-   transform-origin: 50%;
    -webkit-transition: all 200ms linear;
    transition: all 200ms linear;
-}
-.headerMenu-effect:hover:before, .headerMenu-effect:focus:before, .headerMenu-effect:active:before 
-{
-   -webkit-transform: scaleX(1);
-   transform: scaleX(1);
-   opacity: 1;
 }
 #wb_Card1
 {
@@ -519,6 +493,7 @@ body
    background-color: rgba(30,30,30,0.59);
    background-image: none;
    border: 0px solid #DEDEDE;
+   border-radius: 21px;
    margin: 15px 15px 15px 15px;
    padding: 0;
    text-align: center;
@@ -535,6 +510,7 @@ body
    display: inline-block;
    height: 53px;
    box-sizing: border-box;
+   border-radius: 21px 21px 0 0;
    margin: 25px 0px 20px 0px;
    padding: 0;
    border: 0px solid #BABABA;
@@ -581,7 +557,7 @@ body
    margin: 0;
    padding: 0;
    color: #32CD32;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: bold;
    font-size: 21px;
 }
@@ -597,10 +573,11 @@ body
 #Card1-card-item3
 {
    box-sizing: border-box;
+   border-radius: 0 0 21px 21px;
    margin: 0px 0px 30px 0px;
    padding: 0;
    color: #00FF00;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: normal;
    font-size: 13px;
 }
@@ -622,6 +599,7 @@ body
    background-color: rgba(30,30,30,0.59);
    background-image: none;
    border: 0px solid #DEDEDE;
+   border-radius: 21px;
    margin: 15px 15px 15px 15px;
    padding: 0;
    text-align: center;
@@ -638,6 +616,7 @@ body
    display: inline-block;
    height: 53px;
    box-sizing: border-box;
+   border-radius: 21px 21px 0 0;
    margin: 25px 0px 20px 0px;
    padding: 0;
    border: 0px solid #000000;
@@ -684,7 +663,7 @@ body
    margin: 0;
    padding: 0;
    color: #32CD32;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: bold;
    font-size: 21px;
 }
@@ -700,10 +679,11 @@ body
 #Card2-card-item3
 {
    box-sizing: border-box;
+   border-radius: 0 0 21px 21px;
    margin: 0px 0px 30px 0px;
    padding: 0;
    color: #00FF00;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: normal;
    font-size: 13px;
 }
@@ -725,6 +705,7 @@ body
    background-color: rgba(30,30,30,0.59);
    background-image: none;
    border: 0px solid #DEDEDE;
+   border-radius: 21px;
    margin: 15px 15px 15px 15px;
    padding: 0;
    text-align: center;
@@ -741,6 +722,7 @@ body
    display: inline-block;
    height: 53px;
    box-sizing: border-box;
+   border-radius: 21px 21px 0 0;
    margin: 25px 0px 20px 0px;
    padding: 0;
    border: 0px solid #000000;
@@ -787,7 +769,7 @@ body
    margin: 0;
    padding: 0;
    color: #32CD32;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: bold;
    font-size: 21px;
 }
@@ -803,10 +785,11 @@ body
 #Card3-card-item3
 {
    box-sizing: border-box;
+   border-radius: 0 0 21px 21px;
    margin: 0px 0px 30px 0px;
    padding: 0;
    color: #00FF00;
-   font-family: Arial;
+   font-family: Verdana;
    font-weight: normal;
    font-size: 13px;
 }
@@ -818,7 +801,6 @@ body
 #banner_ai
 {
    border: 0px solid #000000;
-   box-sizing: border-box;
    padding: 0;
    -webkit-animation: transform-pulse 1000ms linear 0ms infinite normal both;
    -moz-animation: transform-pulse 1000ms linear 0ms infinite normal both;
@@ -827,4 +809,76 @@ body
    width: 75px;
    height: 75px;
    vertical-align: top;
+}
+#wb_instagram
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_instagram:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+}
+#instagram
+{
+   height: 31px;
+   width: 31px;
+}
+#instagram i
+{
+   color: #32CD32;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 25px;
+}
+#wb_instagram:hover i
+{
+   color: #00FF00;
+}
+#wb_facebook
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_facebook:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+}
+#facebook
+{
+   height: 31px;
+   width: 31px;
+}
+#facebook i
+{
+   color: #32CD32;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 17px;
+}
+#wb_facebook:hover i
+{
+   color: #00FF00;
 }
