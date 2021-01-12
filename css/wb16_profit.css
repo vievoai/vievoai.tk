@@ -1761,6 +1761,10 @@ input:focus, textarea:focus, select:focus
 }
 #Button7
 {
+   box-sizing: border-box;
+   line-height: 32px;
+   text-decoration: none;
+   vertical-align: top;
    border: 1px solid #4285F4;
    border-radius: 30px;
    background-color: #4285F4;
